@@ -87,7 +87,8 @@ in capturing non-linear patterns in sales data.
 ## 🧰 Tools & Libraries
 - Python
 - Pandas
-- NumPy
+- XGBoost
+- LightGBM
 - Matplotlib
 - Scikit-learn
 
