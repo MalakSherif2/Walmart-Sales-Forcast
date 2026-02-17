@@ -11,9 +11,11 @@ to predict future sales accurately.
 - **Source:** Walmart Sales Forecast Dataset (Kaggle)
 - **Main Features:**
   - Date
-  - Weekly_Sales
+  - Fuel_Price
   - Store
-  - Department (if available)
+  - CPI
+  - Unemployment
+  - IsHoliday
 
 ---
 
@@ -93,6 +95,8 @@ in capturing non-linear patterns in sales data.
 - Scikit-learn
 
 ---
+## Insights
+Two models were tested for forecasting Walmart weekly sales: Linear Regression and XGBoost Regressor. XGBoost achieved the best performance with an accuracy of 0.96, while Linear Regression scored 0.867. XGBoost was selected as the final model due to its superior predictive capability.
 
 ## 👩‍💻 Author
 **Malak Sherif**
